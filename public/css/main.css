@@ -4,7 +4,12 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: blue;
+        background-color: black;
+        border-radius: 15px;
+        box-shadow:blueviolet;
+        font-weight: bolder;
+        border: 2px solid rgb(7, 36, 36);
+        
       }
       
       li {
@@ -24,7 +29,24 @@
       
       } 
       body{
-        background-color:rgb(95, 95, 211);
+        background-color:rgb(42, 42, 85);
         color:ivory;
         font-size: 10px;
+    }
+    #footer{
+      background-color: black;
+      text-align:center;
+      padding: 5px;
+      color:white;
+      border-radius: 15px;
+      border: 2px solid rgb(7, 36, 36);
+    }
+    .user{
+      
+      font-weight: bolder;
+      color:rgb(10, 10, 10)
+      
+    }
+    .user:hover{
+      color:red;
     }

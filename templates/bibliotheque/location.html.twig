@@ -1,1 +1,24 @@
-<h3>location</h3>
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenu(s) dans notre Bibliotheque!{% endblock %}
+
+
+{% block body %}
+<div id="main">
+    <div id="g">
+        
+            {% include "menu_biblio_user.html.twig"%}
+            
+    </div>
+    
+</div>
+<div>
+<h2>Bienvenu sur les Locations</h2>
+</div>
+
+
+
+
+
+
+{% endblock %}
